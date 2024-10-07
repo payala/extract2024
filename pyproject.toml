@@ -6,8 +6,11 @@ authors = ["Pedro Perez de Ayala <ppayala@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
 scrapy = "^2.11.2"
+shub = "^2.15.4"
 
 
 [build-system]
